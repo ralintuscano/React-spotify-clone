@@ -5,10 +5,10 @@ import "./App.css";
 import Login from "./Login";
 
 function App() {
-  const [token, setToken] = useState(null);
+  const [token, setToken] = useState(0);
 
   useEffect(() => {
-    // Set token
+    // Set token.
     const hash = getTokenFromUrl();
     window.location.hash = "";
     let _token = hash.access_token;
