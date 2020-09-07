@@ -17,7 +17,7 @@ function App() {
       setToken(_token);
     }
 
-    console.log("I have a toekn ", _token);
+    console.log("I have a token ", _token);
   }, []);
 
   return (
