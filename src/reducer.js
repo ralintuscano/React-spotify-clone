@@ -3,6 +3,7 @@ export const initialState = {
   playlists: [],
   playling: false,
   item: null,
+  token: null,
 };
 
 const reducer = (state, action) => {
@@ -13,6 +14,11 @@ const reducer = (state, action) => {
       return {
         ...state,
         user: action.user,
+      };
+    case "SER_TOKEN":
+      return {
+        ...state,
+        token: action.token,
       };
     default:
       return state;
