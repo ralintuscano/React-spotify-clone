@@ -7,6 +7,7 @@ import "./Player.css";
 function Player({ spotify }) {
   return (
     <div className="player">
+      <h1>Hello</h1>
       {/* <div className="player__body">
         <Sidebar />
         <Body spotify={spotify} />
