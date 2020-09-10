@@ -6,3 +6,10 @@
   background-color: #040404;
   color: white;
 }
+
+.Sidebar__logo {
+  /* object-fit: contain; to keep the aspect-ratio */
+  margin-right: auto;
+  height: 70px;
+  padding: 10px;
+}
