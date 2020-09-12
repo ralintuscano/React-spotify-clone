@@ -33,6 +33,13 @@ function App() {
           user,
         });
       });
+
+      spotify.getUserPlaylists().then((playlists) => {
+        dispatch({
+          type: "USER_PLAYLISTS",
+          playlists,
+        });
+      });
     }
   }, [token, dispatch]);
 

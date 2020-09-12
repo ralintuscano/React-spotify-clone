@@ -15,3 +15,9 @@
 .sidebarOption__icon {
   padding: 10px;
 }
+
+.sidebarOption > p {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 20px;
+}
