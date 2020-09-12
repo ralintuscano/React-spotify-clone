@@ -13,3 +13,11 @@
   height: 70px;
   padding: 10px;
 }
+
+.Sidebar__title {
+  color: gray;
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+}
