@@ -16,6 +16,11 @@ function Footer() {
     <div className="Footer">
       <div className="footer__left">
         <p>Current Song</p>
+        <img src="" alt="" />
+        <div className="footer__songInfo">
+          <h4>Yeah!</h4>
+          <p>Usher</p>
+        </div>
       </div>
 
       <div className="footer__center">
