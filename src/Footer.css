@@ -48,10 +48,21 @@
   justify-content: space-between;
   max-width: 300px;
 }
+
+.footer__icon:hover,
+.footer__green:hover {
+  transition: transform 0.2s ease-in;
+  transform: scale(1.2) !important;
+}
+
 .footer__right {
   flex: 0.3;
   color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.footer__right * .MuiSlider-root {
+  color: green;
 }
