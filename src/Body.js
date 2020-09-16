@@ -23,9 +23,11 @@ function Body({ spotify }) {
       </div>
 
       <div className="body__songs">
-        <PlayCircleFilledIcon />
-        <FavoriteIcon />
-        <MoreHorizIcon />
+        <div className="body__icons">
+          <PlayCircleFilledIcon className="body__shuffle" />
+          <FavoriteIcon />
+          <MoreHorizIcon />
+        </div>
       </div>
     </div>
   );
